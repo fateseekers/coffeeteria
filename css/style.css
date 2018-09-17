@@ -4,3 +4,45 @@
   * *:after, * *:before {
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
+
+.container {
+  width: 1024px;
+  margin: 0 auto; }
+
+.page__header {
+  background-color: #763300;
+  height: 50px;
+  -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.8);
+          box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.8); }
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 50px;
+  font-family: 'roboto', sans-serif; }
+  .navigation__logo .logo__link {
+    color: #d7b787;
+    text-decoration: none; }
+
+.nav {
+  margin: 0 50px 0 auto; }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none; }
+  .nav__item {
+    margin-right: 25px; }
+    .nav__item--activator {
+      display: none; }
+  .nav__prefics {
+    margin-right: 5px;
+    color: #d7b787; }
+  .nav__link {
+    color: #d7b787;
+    text-decoration: none; }
+  .nav--activator {
+    display: none; }

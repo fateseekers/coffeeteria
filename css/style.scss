@@ -5,3 +5,64 @@
         box-sizing: border-box;
     }
 }
+
+.container{
+    width:1024px;
+    margin:0 auto;
+}
+
+.page{
+    &__header{
+        background-color: #763300;
+        height:50px;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+        box-shadow: inset 0px 0px 5px rgba(0,0,0,0.8);
+    }
+    &__footer{
+
+    }
+}
+.navigation{
+    display: flex;
+    line-height: 50px;
+    font-family: 'roboto', sans-serif;
+    &__logo{
+        
+        .logo__link{
+            color:#d7b787;
+            text-decoration: none;
+        }
+    }
+}
+
+.nav{
+    margin:0 50px 0 auto;
+    &__list{
+        display: flex;
+        list-style: none;
+    }
+    &__item{
+        margin-right:25px;
+        &--activator{
+            display: none;
+        }
+    }
+    &__prefics{
+        margin-right:5px;
+        color: #d7b787;
+    }
+    &__link{
+        color:#d7b787;
+        text-decoration: none;
+    }
+    &--activator{
+        display: none;
+    }
+}
+
+//colors
+// brown #763300
+// light #d7b787
+// white #f9f8f6
+// grey #aaa7a2
+// dark grey #5e5553
